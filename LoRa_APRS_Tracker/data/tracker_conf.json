@@ -1,0 +1,113 @@
+{
+    "beacons": [
+        {
+            "callsign": "LU1ABC-7",
+            "gpsEcoMode": false,
+            "symbol": "[",
+            "overlay": "/",
+            "micE": "",
+            "comment": "",
+            "smartBeaconActive": true,
+            "smartBeaconSetting": 0,
+            "profileLabel": "Walk/Run"
+        },
+        {
+            "callsign": "LU1ABC-7",
+            "gpsEcoMode": false,
+            "symbol": "b",
+            "overlay": "/",
+            "micE": "",
+            "comment": "",
+            "smartBeaconActive": true,
+            "smartBeaconSetting": 1,
+            "profileLabel": "Bike"
+        },
+        {
+            "callsign": "LU1ABC-7",
+            "gpsEcoMode": false,
+            "symbol": ">",
+            "overlay": "/",
+            "micE": "",
+            "comment": "",
+            "smartBeaconActive": true,
+            "smartBeaconSetting": 2,
+            "profileLabel": "Car"
+        }
+    ],
+    "display": {
+        "showSymbol": true,
+        "ecoMode": true,
+        "timeout": 4,
+        "turn180": false
+    },
+    "battery": {
+        "sendVoltage": true,
+        "voltageAsTelemetry": true,
+        "sendVoltageAlways": false,
+        "monitorVoltage": true,
+        "sleepVoltage": 3.20
+    },
+    "other": {
+        "simplifiedTrackerMode": false,
+        "sendCommentAfterXBeacons": 10,
+        "path": "WIDE1-1",
+        "nonSmartBeaconRate": 15,
+        "rememberStationTime": 30,
+        "standingUpdateTime": 15,
+        "sendAltitude": true,
+        "disableGPS": false,
+        "acceptOwnFrameFromTNC": false,
+        "email": ""
+    },
+    "winlink": {
+        "password": "ABCDEF"
+    },
+    "telemetry": {
+        "active": false,
+        "sendTelemetry": false,
+        "temperatureCorrection": 0.0
+    },
+    "notification": {
+        "ledTx": false,
+        "ledTxPin": 13,
+        "ledMessage": false,
+        "ledMessagePin": 2,
+        "ledFlashlight": false,
+        "ledFlashlightPin": 14,
+        "buzzerActive": false,
+        "buzzerPinTone": 33,
+        "buzzerPinVcc": 25,
+        "bootUpBeep": false,
+        "txBeep": false,
+        "messageRxBeep": false,
+        "stationBeep": false,
+        "lowBatteryBeep": false,
+        "shutDownBeep": false
+    },
+    "lora": [
+        {
+            "frequency": 915000000,
+            "spreadingFactor": 12,
+            "signalBandwidth": 125000,
+            "codingRate4": 5,
+            "power": 20
+        }
+    ],
+    "bluetooth": {
+        "active": false,
+        "deviceName": "LoRaTracker",
+        "useBLE": false,
+        "useKISS": false
+    },
+    "pttTrigger": {
+        "active": false,
+        "io_pin": 4,
+        "preDelay": 0,
+        "postDelay": 0,
+        "reverse": false
+    },
+    "wifiAP": {
+        "active": false,
+        "password": "1234567890"
+    }
+}
